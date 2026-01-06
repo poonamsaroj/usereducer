@@ -11,7 +11,7 @@ function reducer (state, action) {
   }
 }
 
-function App() {
+function UseReducerState() {
   const [state, dispatch] = useReducer(reducer, { name: 'John Doe', age: 29 });
 
   const handleButtonClick = () => {
@@ -27,4 +27,4 @@ function App() {
   );
 }
 
-export default App;
+export default UseReducerState;
